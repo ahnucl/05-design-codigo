@@ -9,7 +9,6 @@ class Calculator1:
         
         first_process_result = self.__first_process(splited_number)
         second_process_result = self.__second_process(splited_number)
-        print(first_process_result, second_process_result)
         third_process_result = splited_number
         calc_result = first_process_result + second_process_result + third_process_result
         response = self.__format_response(calc_result)
